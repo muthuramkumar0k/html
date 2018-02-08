@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 50px solid black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: grey;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 150px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Cricbuzz</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Trending</a></li>
+    <li><a href="#r1">Ranking</a></li>
+    <li><a href="#r2">Series</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>Trending</h1>
+  <p>Joe Root withdraws from T20 Tri series against Aus & Nz.</p>
+  <p>Chennai Super Kings assign L.Balaji as bowling coach and M.Hussey as batting coach.</p>
+  <img src="smith.jpg" alt="smith" width="104" height="142">
+
+</article>
+
+<article>
+  <h2 id="r1">ranking</h2>
+  <table style="width:100%">
+  <tr>
+    <th>Test</th>
+    <th>ODI</th> 
+    <th>T20</th>
+  </tr>
+  <tr>
+    <td>steven smith</td>
+    <td>kohli</td>
+    <td>munro</td>
+  </tr>
+  <tr>
+    <td>kohli</td>
+    <td>Ab de villiers</td>
+    <td>finch</td>
+  </tr>
+  <tr>
+    <td>root</td>
+    <td>rohit</td>
+    <td>kohli</td>
+  </tr>
+</table>
+
+  <p></p>
+</article> 
+
+<article>
+  <h3 id="r3">series</h3>
+  <p>India Tour of South Africa 2017-2018</p>
+  <p>England Tour of Australia 2018 </p>
+   <p>Pakistan Tour of Newzealand  2018 </p>
+   </article>
+
+<footer>Copyright &copy; cricbuzz.com</footer>
+
+</div>
+
+</body>
+</html>
